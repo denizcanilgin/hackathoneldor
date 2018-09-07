@@ -2,12 +2,13 @@ package com.example.denizcan.eldordashboard;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
 
+import com.example.denizcan.eldordashboard.KPIs.KPI_finance;
+import com.example.denizcan.eldordashboard.KPIs.KPI_hr;
+import com.example.denizcan.eldordashboard.KPIs.KPI_operation;
+import com.example.denizcan.eldordashboard.KPIs.KPI_quality;
 
 
 public class kips extends AppCompatActivity {
@@ -16,6 +17,8 @@ public class kips extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kips);
+
+        setTitle("Eldor Corporation");
     }
 
 

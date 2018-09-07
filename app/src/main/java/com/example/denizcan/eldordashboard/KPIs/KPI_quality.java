@@ -1,8 +1,10 @@
-package com.example.denizcan.eldordashboard;
+package com.example.denizcan.eldordashboard.KPIs;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+
+import com.example.denizcan.eldordashboard.R;
 
 public class KPI_quality extends AppCompatActivity {
 
@@ -11,5 +13,6 @@ public class KPI_quality extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.kpi_quality);
+        setTitle("Eldor Corporation");
     }
 }

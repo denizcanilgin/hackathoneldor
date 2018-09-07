@@ -13,7 +13,7 @@ public class mainPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_mainpage);
-
+        setTitle("Eldor Corporation");
 
 
     }

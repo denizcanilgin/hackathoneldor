@@ -20,10 +20,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".mainPage" android:label="Eldor Corporation" />
-        <activity android:name=".KPI_finance" android:label="Eldor Corporation" />
-        <activity android:name=".KPI_hr" android:label="Eldor Corporation" />
-        <activity android:name=".KPI_operation" android:label="Eldor Corporation" />
-        <activity android:name=".KPI_quality" android:label="Eldor Corporation" />
+        <activity android:name=".KPIs.KPI_finance" android:label="Eldor Corporation" />
+        <activity android:name=".KPIs.KPI_hr" android:label="Eldor Corporation" />
+        <activity android:name=".KPIs.KPI_operation" android:label="Eldor Corporation" />
+        <activity android:name=".KPIs.KPI_quality" android:label="Eldor Corporation" />
+        <activity android:name=".KPIs.KPI_operation_logistic" android:label="Eldor Corporation" />
+        <activity android:name=".KPIs.KPI_operation_production" android:label="Eldor Corporation" />
         <activity
             android:name=".kips"
             android:label="@string/title_activity_kips"

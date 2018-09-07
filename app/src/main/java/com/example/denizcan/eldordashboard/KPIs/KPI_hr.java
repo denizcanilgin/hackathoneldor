@@ -1,15 +1,18 @@
-package com.example.denizcan.eldordashboard;
+package com.example.denizcan.eldordashboard.KPIs;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
-public class KPI_finance extends AppCompatActivity {
+import com.example.denizcan.eldordashboard.R;
+
+public class KPI_hr extends AppCompatActivity {
 
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.kpi_finance);
+        setContentView(R.layout.kpi_hr);
+        setTitle("Eldor Corporation");
     }
 }

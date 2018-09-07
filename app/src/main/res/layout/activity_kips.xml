@@ -94,7 +94,7 @@
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:padding="5dp"
-                            android:text="Yetkili Çağır"
+                            android:text="See all operation KPIs."
                             android:textColor="@android:color/darker_gray" />
 
 
