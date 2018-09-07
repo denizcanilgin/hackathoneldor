@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.denizcan.eldordashboard">
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Eldor Corporation"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".login"  android:label="Eldor Corporation" android:windowSoftInputMode="stateVisible|adjustPan"  android:theme="@style/Theme.AppCompat.NoActionBar"> >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".mainPage" android:label="Eldor Corporation" />
+        <activity android:name=".KPI_finance" android:label="Eldor Corporation" />
+        <activity android:name=".KPI_hr" android:label="Eldor Corporation" />
+        <activity android:name=".KPI_operation" android:label="Eldor Corporation" />
+        <activity android:name=".KPI_quality" android:label="Eldor Corporation" />
+        <activity
+            android:name=".kips"
+            android:label="@string/title_activity_kips"
+           ></activity>
+    </application>
+
+</manifest>

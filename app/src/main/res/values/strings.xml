@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EldorDashBoard</string>
+    <string name="title_activity_kpis">kpis</string>
+    <string name="title_activity_kips">kips</string>
+</resources>
